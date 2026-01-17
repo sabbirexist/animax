@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-FLUTTER_VERSION="3.24.3"
+FLUTTER_VERSION="3.25.0"
 
 echo "Downloading Flutter SDK $FLUTTER_VERSION..."
 git clone --depth 1 -b $FLUTTER_VERSION https://github.com/flutter/flutter.git flutter_sdk
